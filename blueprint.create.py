@@ -4,7 +4,7 @@ def main():
     # Introductory question for blueprint name
     print("Welcome to the Blueprint Generator!")
     blueprint_name = input("What do you want to name your blueprint? ").strip()
-    filename = f{blueprint_name}.yaml
+    filename = {blueprint_name}.yaml
     if not blueprint_name:
         print("Error: Please provide a valid blueprint name.")
         return
