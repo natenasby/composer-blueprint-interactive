@@ -37,8 +37,8 @@ def main():
         'name': blueprint_name,
         'description': description,
         'version': version,
-        'modules': modules,
-        'groups': groups,
+        'modules': '['modules']',
+        'groups': '['groups']',
         'customizations': {
             'kernel': {'append': kernel_append}
         }
